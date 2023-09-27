@@ -6,14 +6,21 @@
     }
 
     #mainLeft {
-        border-right: 1px solid lightgray;
+        border-right: 2px solid lightgray;
+        
+    }
+
+    #picture{
+        position: absolute;
+        top: 18%;
+        left: 38%;
         
     }
 
     header {
         text-align: center;
-        margin: auto 2em;
-        
+        margin: auto em;
+        background-color: rgb(65, 105, 225);
     }
     
     section {
@@ -26,7 +33,7 @@
     }
     
     p {
-        margin: .2em auto
+        margin: .2em auto;
     }
     
     hr {
@@ -35,7 +42,10 @@
         height: 1px;
     }
 
-    
+    img {
+        border-radius: 100%;
+        border: 5px solid lightblue;
+      }
     
     h1, h2, h3 {
         font-weight: 100;
@@ -47,7 +57,6 @@
         font-size: 12px;
         max-width: 960px;
         margin: auto;
-        
     }
 
     h1 {
@@ -66,6 +75,5 @@
     h3 {
         font-size: 1em;
         padding-bottom: 1em;
+        
     }
-
-
